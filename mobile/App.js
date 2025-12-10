@@ -8,8 +8,8 @@ import QRCode from 'react-native-qrcode-svg';
 import ConfettiCannon from 'react-native-confetti-cannon';
 import { THEMES, AVATARS } from './shared/themeConfig';
 
-// CHANGE THIS TO YOUR LOCAL IP ADDRESS IF TESTING ON DEVICE
-const API_URL = "http://192.168.1.100:3000";
+// 👎
+const API_URL = "https://anonymous-msg-c0v6.onrender.com";
 
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
