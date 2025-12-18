@@ -4,7 +4,7 @@ import confetti from 'canvas-confetti';
 import QRCode from 'qrcode.react';
 import { THEMES, AVATARS, LOGO_SVG } from '../../shared/themeConfig.js';
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
+const API_URL = import.meta.env.VITE_API_URL || "https://anonymous-msg-c0v6.onrender.com";
 
 export default function App() {
   const [user, setUser] = useState(null);
